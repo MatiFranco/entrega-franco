@@ -1,20 +1,19 @@
 import React from 'react';
-import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Banners from './components/Banners';
 import './App.css';
+import ItemListContainer from './components/ItemListContainer';
+
 
 
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
+      <ItemListContainer greeting={"Bienvenido/a a Sangre de Cristo, el lugar donde encontrarás TU vino"}/>
       <Banners />
       <Footer />
-
-
-
     </div>
   );
 }
